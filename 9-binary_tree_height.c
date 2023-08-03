@@ -14,7 +14,7 @@ size_t lh, rh;
 
 /* tree is null or a loner */
 if (!tree || (!tree->left && !tree->right))
-	return (0);
+		return (0);
 /* measure both */
 lh = binary_tree_height(tree->left);
 rh = binary_tree_height(tree->right);
